@@ -51,15 +51,15 @@ export default function Header() {
               </div>
             </Link>
 
-            {/* Desktop Nav */}
-            <nav className="hidden lg:flex items-center gap-1">
+            {/* Desktop Nav — visible from md (768px) upward */}
+            <nav className="hidden md:flex items-center gap-0.5">
               {navLinks.map((link) => (
                 <NavLink
                   key={link.to}
                   to={link.to}
                   end={link.to === '/'}
                   className={({ isActive }) =>
-                    `font-body text-sm px-4 py-2 rounded-full transition-all duration-200 ${
+                    `font-body text-sm px-3 py-2 rounded-full transition-all duration-200 ${
                       isActive
                         ? 'text-rose-deep bg-blush-mist font-medium'
                         : 'text-ink-soft hover:text-rose-deep hover:bg-blush'
@@ -72,23 +72,24 @@ export default function Header() {
             </nav>
 
             {/* CTA + Mobile toggle */}
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2">
               <a
                 href="tel:+918384050365"
-                className="hidden md:flex items-center gap-2 font-body text-sm text-rose-deep hover:text-rose transition-colors"
+                className="hidden lg:flex items-center gap-1.5 font-body text-sm text-rose-deep hover:text-rose transition-colors"
               >
                 <Phone size={14} />
                 <span>+91 83840 50365</span>
               </a>
               <Link
                 to="/book"
-                className="hidden md:inline-flex items-center bg-rose text-pearl font-body text-sm font-medium px-6 py-2.5 rounded-full shadow-copper hover:bg-rose-deep hover:shadow-rose-md transition-all duration-300"
+                className="hidden md:inline-flex items-center bg-rose text-pearl font-body text-sm font-medium px-5 py-2.5 rounded-full shadow-copper hover:bg-rose-deep hover:shadow-rose-md transition-all duration-300"
               >
-                Book my consult
+                Book now
               </Link>
+              {/* Hamburger — only on mobile (below md) */}
               <button
                 onClick={() => setMobileOpen(!mobileOpen)}
-                className="lg:hidden p-2 rounded-full text-ink-soft hover:bg-blush transition-colors"
+                className="md:hidden p-2 rounded-full text-ink-soft hover:bg-blush transition-colors"
                 aria-label="Toggle menu"
               >
                 {mobileOpen ? <X size={22} /> : <Menu size={22} />}
@@ -106,7 +107,7 @@ export default function Header() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.25 }}
-            className="fixed top-16 left-0 right-0 z-40 bg-pearl/98 backdrop-blur-md border-b border-border shadow-rose-md lg:hidden"
+            className="fixed top-16 left-0 right-0 z-40 bg-pearl/98 backdrop-blur-md border-b border-border shadow-rose-md md:hidden"
           >
             <nav className="max-w-7xl mx-auto px-4 py-6 flex flex-col gap-1">
               {navLinks.map((link) => (
