@@ -1,0 +1,14 @@
+Sunday10 AM7 PM
+Monday10 AM7 PM
+Tuesday10 AM7 PM
+Wednesday10 AM7 PM
+ThursdayClosed
+Friday10 AM7 PM
+Saturday10 AM7 PM
+Sunday9 AM5 PM
+Monday9 AM5 PM
+Tuesday9 AM5 PM
+Wednesday9 AM5 PM
+Thursday9 AM5 PM
+Friday9 AM5 PM
+Saturday9 AM5 PM

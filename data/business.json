@@ -1,0 +1,58 @@
+{
+  "name": "The Toothgram Dental Clinic",
+  "category": "Dental clinic",
+  "rating": "5.0",
+  "reviewCount": "153",
+  "address": "Unit no. 208, Assotech Business Cresterra, TOWER-1, above ABC Medicos, Sector 135, Noida, Uttar Pradesh 201304, India",
+  "phone": "+91 83840 50365",
+  "website": "",
+  "plusCode": "FCW2+6Q Noida, Uttar Pradesh, India",
+  "hoursSummary": "Open · Closes 7 PMSee more hours",
+  "priceLevel": "",
+  "description": "",
+  "coordinates": {
+    "lat": 28.4955939,
+    "lng": 77.4018905
+  },
+  "placeId": "0x390ce9613081936d:0x9abeed4df03a9051",
+  "googleMapsUrl": "https://www.google.com/maps/place/The+Toothgram+Dental+Clinic/@28.4955939,77.4018905,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce9613081936d:0x9abeed4df03a9051!8m2!3d28.4955939!4d77.4018905!16s%2Fg%2F11xzzkzxnm",
+  "imageUrls": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlDkAW0rD1lrGQR5xmtn0-d6USHRE9jweCJaarOszaD8c7jfYB_uy0XAFNf7WqLWqsdogUMBLrpH05D9TRGwvqHcVc7QJe9uVvc1Brrc_ntXEqEhtayo5edJvoaP35gbEULn1i80UgT8fZX=w32-h32-p-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlDkAW0rD1lrGQR5xmtn0-d6USHRE9jweCJaarOszaD8c7jfYB_uy0XAFNf7WqLWqsdogUMBLrpH05D9TRGwvqHcVc7QJe9uVvc1Brrc_ntXEqEhtayo5edJvoaP35gbEULn1i80UgT8fZX=w408-h428-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlDkAW0rD1lrGQR5xmtn0-d6USHRE9jweCJaarOszaD8c7jfYB_uy0XAFNf7WqLWqsdogUMBLrpH05D9TRGwvqHcVc7QJe9uVvc1Brrc_ntXEqEhtayo5edJvoaP35gbEULn1i80UgT8fZX=w283-h298-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWneS2Thr78q6CGDlnxpuQL_tRgqD_tXn2_WDvxYah9CKoJIqkZKjRiHBnfkP1GTkIUULADcz-OtUp965QZSRO-8iyyzoiqotTp_7PyCFDeKGySqjUleFDFiAHBJfHYcit3lO_0Daww0C70d=w224-h398-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlTc84GeDOMcQpR0PZDrsV1BeL8K82NztDtgqxKAxe-oEKINmHq6xjOw1LjLUXMfK5Lx2Lg2TOuWUOumjK5BHnKT251FseuwRTATCvXrMIfomuT8YK5Mwv9Wu5mL4GpU-TQf-NOD8vw_OWo=w224-h398-k-no"
+  ],
+  "hours": [
+    "Sunday10 AM7 PM",
+    "Monday10 AM7 PM",
+    "Tuesday10 AM7 PM",
+    "Wednesday10 AM7 PM",
+    "ThursdayClosed",
+    "Friday10 AM7 PM",
+    "Saturday10 AM7 PM",
+    "Sunday9 AM5 PM",
+    "Monday9 AM5 PM",
+    "Tuesday9 AM5 PM",
+    "Wednesday9 AM5 PM",
+    "Thursday9 AM5 PM",
+    "Friday9 AM5 PM",
+    "Saturday9 AM5 PM"
+  ],
+  "scrapedAt": "2026-08-02T08:01:56.234Z",
+  "savedAt": "2026-08-02T08:01:56.729Z",
+  "outputPath": {
+    "city": "noida",
+    "category": "dental-clinics",
+    "date": "2026-08-02"
+  },
+  "media": {
+    "photos": [
+      {
+        "file": "photos\\photo-001.jpg",
+        "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlDkAW0rD1lrGQR5xmtn0-d6USHRE9jweCJaarOszaD8c7jfYB_uy0XAFNf7WqLWqsdogUMBLrpH05D9TRGwvqHcVc7QJe9uVvc1Brrc_ntXEqEhtayo5edJvoaP35gbEULn1i80UgT8fZX=w1600-h1200-k-no"
+      }
+    ],
+    "videos": []
+  }
+}

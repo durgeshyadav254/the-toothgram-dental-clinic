@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Jost', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #FFF9F6;
+    color: #2A2224;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Cormorant Infant', serif;
+  }
+}
+
+@layer utilities {
+  .hero-blob {
+    background:
+      radial-gradient(circle at 15% 35%, rgba(201, 137, 143, 0.30), transparent 45%),
+      radial-gradient(circle at 80% 15%, rgba(196, 149, 106, 0.20), transparent 40%),
+      radial-gradient(circle at 60% 75%, rgba(201, 137, 143, 0.15), transparent 40%),
+      #F8EDE8;
+  }
+
+  .blush-blob {
+    background:
+      radial-gradient(circle at 25% 50%, rgba(201, 137, 143, 0.20), transparent 50%),
+      radial-gradient(circle at 75% 30%, rgba(196, 149, 106, 0.15), transparent 45%),
+      #F0DDD6;
+  }
+
+  .text-gradient-rose {
+    background: linear-gradient(135deg, #C9898F 0%, #A66B72 50%, #C4956A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Swiper custom styles */
+.swiper-pagination-bullet {
+  background: #EAD5CF !important;
+  opacity: 1 !important;
+  width: 8px !important;
+  height: 8px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #C9898F !important;
+  width: 24px !important;
+  border-radius: 4px !important;
+}
+
+/* Custom scrollbar for desktop */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8EDE8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #EAD5CF;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C9898F;
+}
