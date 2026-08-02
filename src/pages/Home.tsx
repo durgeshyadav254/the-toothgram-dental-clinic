@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async'
+import SEO from '../components/ui/SEO'
 import GlowHero from '../components/home/GlowHero'
 import WhyChooseUs from '../components/home/WhyChooseUs'
 import ServicesSection from '../components/home/ServicesSection'
@@ -11,17 +11,13 @@ import WaveDivider from '../components/ui/WaveDivider'
 export default function Home() {
   return (
     <>
-      <Helmet>
-        <title>The Toothgram Dental Clinic — Premium Smile Studio, Sector 135 Noida</title>
-        <meta
-          name="description"
-          content="Noida's premier cosmetic dental lounge. Veneers, Invisalign, whitening, smile makeovers & general dentistry in a calm beauty-first setting. Rated 5.0★ by 153+ patients."
-        />
-        <meta property="og:title" content="The Toothgram Dental Clinic — Premium Smile Studio, Noida" />
-        <meta property="og:description" content="Your soft place to shine. World-class cosmetic dentistry in Sector 135, Noida." />
-        <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://toothgram.in/" />
-      </Helmet>
+      <SEO
+        title="The Toothgram Dental Clinic — Premium Smile Studio, Sector 135 Noida"
+        description="Noida's premier cosmetic dental lounge. Veneers, Invisalign, whitening, smile makeovers & general dentistry in a calm beauty-first setting. Rated 5.0★ by 153+ patients."
+        ogTitle="The Toothgram Dental Clinic — Premium Smile Studio, Noida"
+        ogDescription="Your soft place to shine. World-class cosmetic dentistry in Sector 135, Noida."
+        canonical="https://toothgram.in/"
+      />
 
       <GlowHero />
       <WaveDivider topColor="#F8EDE8" bottomColor="#FFF9F6" />

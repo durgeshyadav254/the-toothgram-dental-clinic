@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Helmet } from 'react-helmet-async'
+import SEO from '../components/ui/SEO'
 import { motion } from 'framer-motion'
 import { CheckCircle2, Phone, MapPin, Clock, CalendarDays } from 'lucide-react'
 import { services } from '../data/services'
@@ -56,10 +56,10 @@ export default function Book() {
 
   return (
     <>
-      <Helmet>
-        <title>Book an Appointment — The Toothgram Dental Clinic, Noida</title>
-        <meta name="description" content="Book your appointment at The Toothgram Dental Clinic, Sector 135, Noida. Free consultations available. Call +91 83840 50365." />
-      </Helmet>
+      <SEO
+        title="Book an Appointment — The Toothgram Dental Clinic, Noida"
+        description="Book your appointment at The Toothgram Dental Clinic, Sector 135, Noida. Free consultations available. Call +91 83840 50365."
+      />
 
       <div className="min-h-screen bg-pearl pt-24">
         {/* Header */}

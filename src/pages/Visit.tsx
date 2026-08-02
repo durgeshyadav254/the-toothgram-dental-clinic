@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async'
+import SEO from '../components/ui/SEO'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { MapPin, Phone, Clock, ArrowRight, Car, Train } from 'lucide-react'
@@ -16,10 +16,10 @@ const hours = [
 export default function Visit() {
   return (
     <>
-      <Helmet>
-        <title>Visit Us — The Toothgram Dental Clinic, Sector 135, Noida</title>
-        <meta name="description" content="Find The Toothgram Dental Clinic in Sector 135, Noida. Get directions, hours, phone number, and parking information." />
-      </Helmet>
+      <SEO
+        title="Visit Us — The Toothgram Dental Clinic, Sector 135, Noida"
+        description="Find The Toothgram Dental Clinic in Sector 135, Noida. Get directions, hours, phone number, and parking information."
+      />
 
       <div className="min-h-screen bg-pearl pt-24">
         {/* Header */}

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Helmet } from 'react-helmet-async'
+import SEO from '../components/ui/SEO'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ArrowRight, ArrowLeft, CheckCircle2, Sparkles } from 'lucide-react'
 
@@ -108,10 +108,10 @@ export default function DreamSmile() {
 
   return (
     <>
-      <Helmet>
-        <title>Dream Smile Planner — The Toothgram Dental Clinic</title>
-        <meta name="description" content="Design your dream smile in 4 soft steps. Tell us your vibe, goals, and contact details — and we'll prepare your personalised smile plan for free." />
-      </Helmet>
+      <SEO
+        title="Dream Smile Planner — The Toothgram Dental Clinic"
+        description="Design your dream smile in 4 soft steps. Tell us your vibe, goals, and contact details — and we'll prepare your personalised smile plan for free."
+      />
 
       <div className="min-h-screen bg-pearl pt-24">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 py-12">

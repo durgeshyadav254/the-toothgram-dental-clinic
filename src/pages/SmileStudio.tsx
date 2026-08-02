@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async'
+import SEO from '../components/ui/SEO'
 import { Link, useParams } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { ArrowLeft, ArrowRight, CheckCircle2, Phone } from 'lucide-react'
@@ -26,10 +26,7 @@ function ServiceDetail() {
 
   return (
     <>
-      <Helmet>
-        <title>{service.title} — The Toothgram Dental Clinic</title>
-        <meta name="description" content={service.description} />
-      </Helmet>
+      <SEO title={`${service.title} — The Toothgram Dental Clinic`} description={service.description} />
 
       <div className="min-h-screen bg-pearl pt-24">
         {/* Hero */}
@@ -172,13 +169,10 @@ function ServiceDetail() {
 function SmileStudioIndex() {
   return (
     <>
-      <Helmet>
-        <title>Smile Studio — Cosmetic Dental Treatments | The Toothgram Noida</title>
-        <meta
-          name="description"
-          content="Explore our full range of cosmetic and general dental treatments — veneers, whitening, clear aligners, implants, smile makeovers and more in Sector 135, Noida."
-        />
-      </Helmet>
+      <SEO
+        title="Smile Studio — Cosmetic Dental Treatments | The Toothgram Noida"
+        description="Explore our full range of cosmetic and general dental treatments — veneers, whitening, clear aligners, implants, smile makeovers and more in Sector 135, Noida."
+      />
 
       <div className="min-h-screen bg-pearl pt-24">
         {/* Header */}

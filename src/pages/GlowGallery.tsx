@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async'
+import SEO from '../components/ui/SEO'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
@@ -20,13 +20,10 @@ const cases = [
 export default function GlowGallery() {
   return (
     <>
-      <Helmet>
-        <title>Glow Gallery — Smile Transformations | The Toothgram Noida</title>
-        <meta
-          name="description"
-          content="See real smile transformations from our patients. Before and after results for veneers, whitening, aligners, implants, and smile makeovers in Noida."
-        />
-      </Helmet>
+      <SEO
+        title="Glow Gallery — Smile Transformations | The Toothgram Noida"
+        description="See real smile transformations from our patients. Before and after results for veneers, whitening, aligners, implants, and smile makeovers in Noida."
+      />
 
       <div className="min-h-screen bg-pearl pt-24">
         {/* Header */}

@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async'
+import SEO from '../components/ui/SEO'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { MapPin, Clock, Phone, ArrowRight, Sparkles, Shield, Heart } from 'lucide-react'
@@ -37,13 +37,10 @@ const hours = [
 export default function TheLounge() {
   return (
     <>
-      <Helmet>
-        <title>The Lounge — About Our Clinic | The Toothgram Dental Clinic, Noida</title>
-        <meta
-          name="description"
-          content="Step inside The Toothgram — a beautifully designed dental lounge in Sector 135, Noida. Learn about our space, our philosophy, and what makes us different."
-        />
-      </Helmet>
+      <SEO
+        title="The Lounge — About Our Clinic | The Toothgram Dental Clinic, Noida"
+        description="Step inside The Toothgram — a beautifully designed dental lounge in Sector 135, Noida. Learn about our space, our philosophy, and what makes us different."
+      />
 
       <div className="min-h-screen bg-pearl pt-24">
         {/* Hero */}
